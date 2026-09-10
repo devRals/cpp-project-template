@@ -1,0 +1,14 @@
+# Nix
+result*
+
+# Misc
+.direnv
+
+# Build results
+/build/
+
+# Ignore compiled libraries
+/lib/
+
+# Clangd cache
+.cache
