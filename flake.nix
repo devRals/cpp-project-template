@@ -19,7 +19,7 @@
   # For more information about the C/C++ infrastructure in nixpkgs: https://wiki.nixos.org/wiki/C
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
-      pname = "i-hate-cpp"; # package name
+      pname = "my_cool_program"; # package name
       version = "0.0.1";
       src = ./.;
       buildInputs = with pkgs; [

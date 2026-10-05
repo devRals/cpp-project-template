@@ -6,6 +6,7 @@ result*
 
 # Build results
 /build/
+!/build/debug/compile_commands.json
 
 # Ignore compiled libraries
 /lib/

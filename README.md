@@ -8,7 +8,7 @@ Only requirement for this template to use cmake for building the project.
 
 ## Getting Started
 
-1. Clone this template: `git clone https://github.com/devRals/cpp-project-template.git <my_awesome_cpp_project>`
+1. Clone this template: `git clone https://github.com/devRals/cpp-project-template.git .`
 2. Create a debug build: `cmake -S . -B build/debug`
 
 ## Structure
@@ -17,9 +17,9 @@ Only requirement for this template to use cmake for building the project.
 ├── build/                 # Generated build files
 │   ├── debug/
 │   └── release/
-├── include/               # Project headers
+├── include/               # Header files
 ├── lib/                   # Optional precompiled libraries
-├── src/                   # Project source files
+├── src/                   # Implemention Files
 ├── compile_commands.json  # A symlink to the build/debug/compile_commands.json to make sure
 │                          # clangd (language server protocol) works correctly
 ├── CMakeLists.txt         # CMake build configuration

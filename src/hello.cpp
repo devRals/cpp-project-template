@@ -1,4 +1,4 @@
-#include "my_cool_class.h"
+#include "hello.h"
 #include <string>
 
 HelloWorld::HelloWorld() {}
