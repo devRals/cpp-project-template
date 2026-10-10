@@ -65,5 +65,10 @@
       packages.default = pkgs.stdenv.mkDerivation {
         inherit buildInputs nativeBuildInputs pname version src;
       };
+
+      templates.default = {
+        path = ./.;
+        description = "devRals' cpp/nix development environment"
+      };
     });
 }
