@@ -68,7 +68,7 @@
 
       templates.default = {
         path = ./.;
-        description = "devRals' cpp/nix development environment"
+        description = "devRals' cpp/nix development environment";
       };
     });
 }
