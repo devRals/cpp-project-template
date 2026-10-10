@@ -6,10 +6,11 @@ result*
 
 # Build results
 /build/
-!/build/debug/compile_commands.json
+!/build/compile_commands.json
 
 # Ignore compiled libraries
-/lib/
+external/lib/shared/*
+external/lib/static/*
 
 # Clangd cache
 .cache
